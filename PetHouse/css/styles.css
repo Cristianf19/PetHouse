@@ -29,3 +29,8 @@ button{
     border-color: black;
     background-color: #49C7AB;
 }
+.navbar{
+    position: fixed;
+    top:0;
+    width:100%;
+}
