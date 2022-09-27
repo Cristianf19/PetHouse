@@ -1,0 +1,66 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#parrafo-cont{
+    font-family: 'Square Peg', cursive;
+    font-size: 200%;
+    padding: 9% 0% 0% 0%;
+}
+
+.login{
+    float: right;
+    border-radius: 40%;
+}
+
+button{
+    margin-top: 1rem;
+    border: 0.8rem 0.8rem;
+    border-radius: 1.5rem;
+    border-color: black;
+    background-color: #49C7AB;
+
+}
+
+#rounder{
+  
+    border: 0.8rem 0.8rem;
+    border-radius: 1.5rem;
+    border-color: black;
+    background-color: #49C7AB;
+}
+
+/*Eliminar botones del input type:number*/
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+input[type=number] { -moz-appearance:textfield; }
+
+.verde{
+    background-color: #49c7ac2d !important;
+}
+
+#separador-derecha{
+    background-color: #49C7AB;
+    height: 1rem; 
+    margin: 0%; 
+    border: 0.1rem solid #49C7AB; 
+    border-radius: 0% 0% 0% 100%;
+}
+
+#separador-izquierda{
+    background-color: #49C7AB;
+    height: 1rem; 
+    margin: 0%; 
+    border: 0.1rem solid #49C7AB; 
+    border-radius: 0% 0% 100% 0%;
+}
+
+#modal1{
+    width: 50% !important;
+    max-height: 100% !important;
+    overflow-y:hidden;
+
+}

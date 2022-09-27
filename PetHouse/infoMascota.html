@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css" />
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Home</title>
+
+    <style>
+        article{
+            float: right;
+            
+            position: absolute;
+            top:5rem;
+            left:25rem;
+            overflow: scroll;
+            overflow-x: hidden;
+            height: 35rem;
+            width: 64rem;
+            border-radius:2em;
+        }
+        .card{
+            border-radius:2em;
+        }
+        
+    </style>
+</head>
+<body>
+    <!------------------------------------- NAVBAR ----------------------------------->
+    
+    <!--Navbar-->
+    <div class=" navbar-fixed">
+        <nav>
+          <div class="nav-wrapper" style="background-color: #49C7AB;">
+            <a href="index.html" class="brand-logo"><img src="img/logo.png" style="height: 4rem; height: 4rem; padding-left: 1rem;"></a>
+            <a href="" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="quienesSomos.html">¿Quienes Somos?</a></li>
+              <li><a href="productos.php">Productos</a></li>
+              <li><a href="contactenos.html">Contactenos</a></li>
+              
+              <!---->
+              <li style="padding-top:1rem;">
+                <a class="right btn dropdown-button" href="#" data-activates="dropdownId">
+                Juan Perez
+                  <!-- Icons used here -->
+                  <i class="mdi-navigation-arrow-drop-down 
+                      right material-icons">
+                  </i>
+                </a>
+              </li>
+              <!-- Dropdown Initiated -->
+              </ul>
+                    
+              <ul id="dropdownId" class="dropdown-content">
+                  <li><a href="#"><i style="width: 10px;height: 10px;" class="material-icons left">perm_identity</i>Mi perfil</a></li>
+                  <li><a href="#"><i style="width: 10px;height: 10px;" class="material-icons left">pets</i>Mis mascotas</a></li>
+                  <li><a href="indexmat.html"><i style="width: 10px;height: 10px;" class="material-icons left">power_settings_new</i>Cerrar sesión</a></li>
+              </ul>
+              <!---->
+              
+              
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!--Navbar mobile-->
+        <ul class="sidenav" id="mobile-demo">
+          <li>
+            <div class="user-view">
+              <div class="background">
+                <img src="img/fondo-sidenav-blue.png">
+              </div>
+              <a href="#user"><img class="circle" src="img/perro-asomao.jpg"></a>
+              <a href="#name"><span class="white-text name">John Doe</span></a>
+              <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+            </div>
+          </li>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="quienesSomos.html">¿Quienes Somos?</a></li>
+          <li><a href="productos.php">Productos</a></li>
+          <li><a href="contactenos.html">Contactenos</a></li>
+          
+          
+        </ul>
+        
+      <!------------------------------------------------------------------------------------------------------->
+    
+    <aside >
+    <div>   
+        <ul class="collection" style="width: 35rem ;">
+            <li class="collection-item avatar" ><img src="img/rostro.jpg" style="width: 7rem;height: 7rem;" class="circle" >
+                <h2> &nbsp;&nbsp;&nbsp;&nbsp;Juan Perez</h2>
+            </li>
+            <li class="collection-item">
+                <p>ID: 1063290555</p>
+                <p>Correo: juanP25@gmail.com</p>
+                <p>Telefono: 311-899-5500</p>
+                <p>Direccion: Carrera 80 #48b-55 barrio belen</p>
+                <button>Actualizar</button>
+            
+            </li>
+        </ul>
+    </aside>
+    <article style="padding-left: 20rem;">
+        
+        <h3 style="color:rgb(3, 92, 104);font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-weight: bolder;">MIS MASCOTAS</h3>
+        <div class="row">
+            <div class="col s12 m7" >
+                <div class="card" style="border-radius: 1cm;background-color: rgb(113, 202, 203);" >
+                <div class="card-image" style="padding-left: 5rem;padding-top: 2rem;">
+                    <img src="img/rex.jpg" style="width:15rem;height:15rem;border-radius: 3cm;filter: drop-shadow(0 3px 7px rgb(3, 92, 104))">
+                    <span class="card-title">REX</span>
+                </div>
+                <div class="card-content">
+                    <p>Codigo: 00001</p>
+                    <p>Nombre: Rex</p>
+                    <p>Apellido: Perez</p>
+                    <p>Raza: Shiba inu</p>
+                    <p>Genero: Macho</p>
+
+                </div>
+                <div class="card-action" style="border-radius: 1cm;">
+                    <button>Actualizar</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m7">
+                <div class="card"  style="border-radius: 1cm;background-color: rgb(113, 202, 203);">
+                <div class="card-image"  style="padding-left: 5rem;padding-top: 2rem;">
+                    <img src="img/gato.jpg" style="width:15rem;height:15rem;border-radius: 3cm;filter: drop-shadow(0 3px 7px rgb(3, 92, 104))">
+                    <span class="card-title">Nieves</span>
+                </div>
+                <div class="card-content">
+                    <p>Codigo: 00002</p>
+                    <p>Nombre: Nieves</p>
+                    <p>Apellido: Perez</p>
+                    <p>Raza: Cornish rex</p>
+                    <p>Genero: hembra</p>
+                </div>
+                <div class="card-action" style="border-radius: 1cm;">
+                    <button>Actualizar</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m7">
+                <div class="card"  style="border-radius: 1cm;background-color: rgb(113, 202, 203);">
+                <div class="card-image"  style="padding-left: 5rem;padding-top: 2rem;">
+                    <img src="img/perrodayan.jpg" style="width:15rem;height:15rem; border-radius: 3cm;filter: drop-shadow(0 3px 7px rgb(3, 92, 104))">
+                    <span class="card-title">Dayan</span>
+                </div>
+                <div class="card-content">
+                    <p>Codigo: 00003</p>
+                    <p>Nombre: Dayan</p>
+                    <p>Apellido: Perez</p>
+                    <p>Raza: Pitbull</p>
+                    <p>Genero: Macho</p>
+                    
+                </div>
+                <div class="card-action" style="border-radius: 1cm;">
+                    <button>Actualizar</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </article>
+     <!-------------------------------------- FOOTER ----------------------------------->
+     <br><br><br><br><br><br><br><br><br><br><br><br>
+  <footer class="page-footer" style="background-color: #49C7AB;">
+    <div class="container">
+      <div class="row">
+        <div class="col s4">
+          <img src="img/logo_gris.png" style="width: 12rem;height:8rem">
+        </div>
+        <div class="col s4">
+          <h5 class="white-text">Enlaces</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="index.html">Inicio</a></li>
+            <li><a class="grey-text text-lighten-3" href="quienesSomos.html">¿Quienes Somos?</a></li>
+            <li><a class="grey-text text-lighten-3" href="productos.html">Productos</a></li>
+            <li><a class="grey-text text-lighten-3" href="contactenos.html">Contactenos</a></li>
+          </ul>
+        </div>
+        <div class="col s4">
+            <h5>Siguenos en nuestras redes</h5>
+            <img src="img/3721672-instagram_108066.png" style="width: 2rem;height:2rem;">
+            <img src="img/social_facebook_box_blue_256_30649.png" style="width: 2rem;height:2rem;">
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2022 Copyright
+      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+  <!-------------------------------------------------------------------------------------->
+      <!-- ----------------------------------- SCRIPT ----------------------------------->
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems);
+      });
+    
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.modal');
+            var instances = M.Modal.init(elems);
+        });
+    
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.parallax');
+            var instances = M.Parallax.init(elems);
+        });
+    
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.carousel');
+        var instances = M.Carousel.init(elems);
+      });
+
+      var instance = M.Carousel.init({
+        fullWidth: true,
+        indicators: true
+      });
+
+      
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.dropdown-trigger');
+        var instances = M.Dropdown.init(elems);
+      }); 
+    </script>
+<!-------------------------------------------------------------------------------------->
+</body>
+</html>
